@@ -6,11 +6,16 @@ namespace MatrixSpirale
     {
         static void Main(string[] args)
         {
+
+            /*
             Console.WriteLine("Количество строк");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Количество столбцов");
-
             int m = int.Parse(Console.ReadLine());
+            */
+            int m = 5;
+            int n = 5;
+
             int[,] mas = new int[m, n];
             int k = 1;
             int t = 0;
@@ -57,7 +62,9 @@ namespace MatrixSpirale
                 Console.WriteLine();
             }
             Console.ReadKey();
+            Console.WriteLine();
         }
+       
     }
 }
    
